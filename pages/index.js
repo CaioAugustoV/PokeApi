@@ -6,6 +6,12 @@ export default class index extends Component {
     return (
       <div>
         <MainDesktop />
+        <style jsx global>{`
+          body{
+            padding: 0;
+            margin: 0;
+          }
+        `}</style>
       </div>
     )
   }
