@@ -2068,7 +2068,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/dvida14/Documents/github/PokeApi/pages/_document.js";
+var _jsxFileName = "/home/caioaugusto/Github/PokeApi/pages/_document.js";
 
 
 

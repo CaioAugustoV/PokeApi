@@ -85,7 +85,30 @@ export default class index extends Component {
           </div>
           <div className="center"></div>
           <div className="right">
-            <div className="border"/>
+            <div className="border">
+              <div className="main-right">
+                <div className="main-complement"/>
+                  <div className="border-right">
+                    <div className="border-complement"/>
+                    <div className="screen">
+
+                    </div>
+                    <div className="buttons">
+                      <div className="lineOne">
+                        <div className="changeImage">
+                          <div className="imageLeft"></div>
+                          <div className="imageRight"></div>
+                        </div>
+                        <div className="reset"></div>
+                      </div>
+                      <div className="lineTwo">
+                        <div className="buttonOne"></div>
+                        <div className="buttonTwo"></div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
           </div>
         </div>
         <style jsx>{`
@@ -227,7 +250,7 @@ export default class index extends Component {
           }
           .pokedex .left .main-left .border .main-screen .border-screen .camera{
             position: absolute;
-            top: 4%;
+            top: 2%;
             display: flex;
             flex-direction: row;
           }
@@ -250,18 +273,17 @@ export default class index extends Component {
           }
           .pokedex .left .main-left .border .main-screen .border-screen .itens .button{
             background: #e84848;
-            width: 20px;
-            height: 20px;
+            width: 1vw;
+            height: 1vw;
             border-radius: 50%;
             border: 1px solid #4d4d4d;
           }
           .pokedex .left .main-left .border .main-screen .border-screen .itens .alto-falante{}
           .pokedex .left .main-left .border .main-screen .border-screen .itens .alto-falante .saida{
-            width: 20px;
-            height: 2px;
+            width: 2vw;
+            height: 0.1vw;
             background: #4d4d4d;
             border-radius: 50%;
-            border: 1px solid #4d4d4d;
             margin: 3px 0;
           }
           .pokedex .left .main-left .border .buttons{
@@ -273,15 +295,15 @@ export default class index extends Component {
           }
           .pokedex .left .main-left .border .buttons .voice{
             background: #22b598;
-            width: 100px;
-            height: 40px;
+            width: 8vw;
+            height: 3vw;
             border: 3px solid #444d4c;
             border-radius: 15px;
           }
           .pokedex .left .main-left .border .buttons .reset{
             background: #4d4d4d;
-            width: 40px;
-            height: 40px;
+            width: 3vw;
+            height: 3vw;
             border-radius: 50%;
             border: 3px solid #4b4b4b;
           }
@@ -297,8 +319,8 @@ export default class index extends Component {
           }
           .pokedex .left .main-left .border .buttons .directions .top{
             background: #666666;
-            width: 30px;
-            height: 30px;
+            width: 3vw;
+            height: 3vw;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -313,8 +335,8 @@ export default class index extends Component {
           }
           .pokedex .left .main-left .border .buttons .directions .bottom{
             background: #666666;
-            width: 30px;
-            height: 30px;
+            width: 3vw;
+            height: 3vw;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -329,8 +351,8 @@ export default class index extends Component {
           }
           .pokedex .left .main-left .border .buttons .directions .button-center{
             background: #666666;
-            width: 30px;
-            height: 30px;
+            width: 3vw;
+            height: 3vw;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -348,8 +370,8 @@ export default class index extends Component {
           }
           .pokedex .left .main-left .border .buttons .directions .button-left{
             background: #666666;
-            width: 30px;
-            height: 30px;
+            width: 3vw;
+            height: 3vw;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -364,8 +386,8 @@ export default class index extends Component {
           }
           .pokedex .left .main-left .border .buttons .directions .button-right{
             background: #666666;
-            width: 30px;
-            height: 30px;
+            width: 3vw;
+            height: 3vw;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -402,6 +424,106 @@ export default class index extends Component {
             width: 100%;
             clip-path: polygon(26% 0%,47% 11%,100% 11%,100% 100%,70% 100%,30% 100%,0 100%,0 0);
             background: #e84848;
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-end;
+          }
+          .pokedex .right .border .main-right{
+            width: 86%;
+            height: 84%;
+            margin-right: 4%;
+            margin-bottom: 4%;
+            background: #4d4d4d;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          .pokedex .right .border .main-right .main-complement{
+            clip-path: polygon(35% 0%, 100% 100%, 100% 100%, 50% 100%, 0 100%, 0 0);
+            background: #4d4d4d;
+            height: 14%;
+            width: 42%;
+            position: absolute;
+            top: -13%;
+            left: 0;
+          }
+          .pokedex .right .border .main-right .border-right{
+            background: #e84848;
+            width: 95%;
+            height: 96%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+          }
+          .pokedex .right .border .main-right .border-right .border-complement{
+            clip-path: polygon(33% 0%,100% 100%,100% 100%,50% 100%,0 100%,0 0);
+            background: #e84848;
+            height: 13%;
+            width: 38%;
+            position: absolute;
+            left: 2.5%;
+            top: -10%;
+          }
+          .pokedex .right .border .main-right .border-right .screen{
+            width: 89%;
+            height: 49%;
+            background: #666666;
+            border: 4px solid #4d4d4d;
+          }
+          .pokedex .right .border .main-right .border-right .buttons{
+            width: 90%;
+          }
+          .pokedex .right .border .main-right .border-right .buttons .lineOne{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            margin-bottom: 4vh;
+          }
+          .pokedex .right .border .main-right .border-right .buttons .lineOne .changeImage{
+            display: flex;
+            flex-direction: row;
+          }
+          .pokedex .right .border .main-right .border-right .buttons .lineOne .changeImage div{
+            height: 3vw;
+            width: 4vw;
+            background: #e6e6e6;
+            border: 2px solid #4d4d4d;
+          }
+          .pokedex .right .border .main-right .border-right .buttons .lineOne .changeImage .imageLeft{
+            border-radius: 8px 0 0 8px;
+          }
+          .pokedex .right .border .main-right .border-right .buttons .lineOne .changeImage .imageRight{
+            border-radius: 0 8px 8px 0;
+          }
+          .pokedex .right .border .main-right .border-right .buttons .lineOne .reset{
+            height: 3vw;
+            width: 3vw;
+            background: #fcee6b;
+            border-radius: 50%;
+            border: 2px solid #4d4d4d;
+          }
+          .pokedex .right .border .main-right .border-right .buttons .lineTwo{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+          }
+          .pokedex .right .border .main-right .border-right .buttons .lineTwo .buttonOne{
+            height: 3vw;
+            width: 10vw;
+            background: #666666;
+            border-radius: 8px;
+            border: 2px solid #4d4d4d;
+          }
+          .pokedex .right .border .main-right .border-right .buttons .lineTwo .buttonTwo{
+            height: 3vw;
+            width: 8vw;
+            background: #666666;
+            border-radius: 8px;
+            border: 2px solid #4d4d4d;
           }
         `}</style>
       </div>
