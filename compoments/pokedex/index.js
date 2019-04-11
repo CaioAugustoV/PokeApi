@@ -5,6 +5,7 @@ export default class index extends Component {
     super(props)
     this.state = {
       pokemon: [],
+      voice: false,
     }
   }
   
@@ -17,8 +18,16 @@ export default class index extends Component {
         });
       })
   }
+  buttonActive = (val) => {
+    this.setState({
+      voice: true,
+    }, () => setTimeout( () => {
+      this.setState({
+        voice: false,
+      })
+    }, 200))
+  }
   render() {
-    console.log(this.state.pokemon)
     return (
       <div className="main">
         <div className="pokedex">
@@ -59,7 +68,7 @@ export default class index extends Component {
                 </div>
                 <div className="buttons">
                   <div className="reset"></div>
-                  <div className="voice"></div>
+                  <div className={this.state.voice ? 'voice active' : 'voice'} onClick={ () => this.buttonActive("voice")}></div>
                   <div className="directions">
                     <div className="top">
                       <img className="arrow" src="./static/images/next.png" />
@@ -112,12 +121,22 @@ export default class index extends Component {
           </div>
         </div>
         <style jsx>{`
+          @keyframes flash {
+            0% { background: rgb(35, 177, 199); } 
+            50% { background: rgb(35, 177, 199, .7); } 
+            100% { background: rgb(35, 177, 199); }
+          }
           .main{
             display: flex;
             align-items: center;
             justify-content: center;
             height: 100vh;
             width: 100vw;
+          }
+          .active{
+            box-shadow: none !important;
+            position: relative;
+            top: 5px;
           }
           .pokedex{
             height: 80vh;
@@ -133,6 +152,7 @@ export default class index extends Component {
             background: #e84848;
             border: 10px solid #4d4d4d;
             border-radius: 22px 22px 0 0;
+            box-shadow: inset -4px -7px 79px -64px rgba(0,0,0,0.7);
           }
           .pokedex .left .header{
             height: 20%;
@@ -153,15 +173,20 @@ export default class index extends Component {
             background: #e84848;
             border-radius: 20px 20px 0 0;
             clip-path: polygon(30% 0%, 68% 0, 100% 0, 100% 50%, 65% 50%, 55% 100%, 0 100%, 0 0);
+            box-shadow: inset 0px -70px 38px -23px rgba(0,0,0,0.2);
           }
           .pokedex .left .header .border .loading{
-            width: 40px;
+            width: 4vw;
             background: #23b1c7;
-            height: 40px;
+            height: 4vw;
             border-radius: 50%;
             border: 2px solid #f0f4f5;
             margin-left: 4%;
             margin-top: 3%;
+            box-shadow: inset -10px -3px 6px 0px rgba(255, 255, 255, 0.3), 
+                        -1px -1px 8px 3px rgba(0,0,0,0.3), 
+                        inset 4px 0px 6px 0px rgba(12, 129, 148, 0.5);
+            animation: flash linear 1s infinite;
           }
           .pokedex .left .header .border .types{
             display: flex;
@@ -173,8 +198,9 @@ export default class index extends Component {
             width: 15px;
             height: 15px;
             border-radius: 50%;
-            border: 2px solid #000;
+            border: 2px solid #4d4d4d;
             margin: 0 4px;
+            box-shadow: inset -2px -2px 4px 0px rgba(0,0,0,0.3), -1px -1px 1px 0px rgba(0,0,0,0.3);
           }
           .pokedex .left .header .border .types .one{
             background: #22b598;
@@ -299,6 +325,7 @@ export default class index extends Component {
             height: 3vw;
             border: 3px solid #444d4c;
             border-radius: 15px;
+            box-shadow: 0 5px 0 #4d4d4d;
           }
           .pokedex .left .main-left .border .buttons .reset{
             background: #4d4d4d;
