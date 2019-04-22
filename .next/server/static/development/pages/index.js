@@ -121,7 +121,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/home/caioaugusto/Github/PokeApi/compoments/Pokedex/compoments/Main.js";
+var _jsxFileName = "/Users/dvida14/Documents/github/PokeApi/compoments/Pokedex/compoments/Main.js";
 
 function _templateObject2() {
   var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_5__["default"])(["\n  height: 90%;\n  width: 6%;\n  background: #e84848;\n  border: 10px solid #4d4d4d;\n  position: absolute;\n  z-index: 1;\n"]);
@@ -229,10 +229,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/home/caioaugusto/Github/PokeApi/compoments/Pokedex/compoments/TabLeft.js";
+var _jsxFileName = "/Users/dvida14/Documents/github/PokeApi/compoments/Pokedex/compoments/TabLeft.js";
 
 function _templateObject26() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_7__["default"])(["\n  background: #666;\n  width: 3vw;\n  height: 3vw;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 0 0 6px 6px;\n  border-top: 0 solid #4b4b4b;\n  border-right: 1px solid #4b4b4b;\n  border-bottom: 1px solid #4b4b4b;\n  border-left: 1px solid #4b4b4b;\n  img {\n    transform: rotate(90deg);\n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_7__["default"])(["\n  background: #666;\n  width: 3vw;\n  height: 3vw;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 0 0 6px 6px;\n  border-top: 0 solid #4b4b4b;\n  border-right: ", ";\n  border-right: 1px solid #4b4b4b;\n  border-bottom: 1px solid #4b4b4b;\n  border-left: 1px solid #4b4b4b;\n  position: relative;\n  box-shadow: 0 5px 0 #4d4d4d;\n  ", "\n\ttransition: .1s ease;\n  img {\n    transform: rotate(90deg);\n  }\n"]);
 
   _templateObject26 = function _templateObject26() {
     return data;
@@ -242,7 +242,7 @@ function _templateObject26() {
 }
 
 function _templateObject25() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_7__["default"])(["\n  background: #666;\n  width: 3vw;\n  height: 3vw;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 0 6px 6px 0;\n  border-top: 1px solid #4b4b4b;\n  border-right: 1px solid #4b4b4b;\n  border-bottom: 1px solid #4b4b4b;\n  border-left: 0 solid #4b4b4b;\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_7__["default"])(["\n  background: #666;\n  width: 3vw;\n  height: 3vw;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 0 6px 6px 0;\n  border-top: 1px solid #4b4b4b;\n  border-right: 1px solid #4b4b4b;\n  border-bottom: 1px solid #4b4b4b;\n  border-left: 0 solid #4b4b4b;\n  position: relative;\n  box-shadow: 0 5px 0 #4d4d4d;\n  ", "\n\ttransition: .1s ease;\n"]);
 
   _templateObject25 = function _templateObject25() {
     return data;
@@ -252,7 +252,7 @@ function _templateObject25() {
 }
 
 function _templateObject24() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_7__["default"])(["\n  background: #666;\n  width: 3vw;\n  height: 3vw;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-top: 1px solid #666;\n  border-right: 1px solid #666;\n  border-bottom: 1px solid #666;\n  border-left: 1px solid #666;\n  div {\n    height: 15px;\n    width: 15px;\n    background: #656565;\n    border-radius: 50%;\n    border: 1px solid #4b4b4b;\n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_7__["default"])(["\n  background: #666;\n  width: 3vw;\n  height: 3vw;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-top: 1px solid #666;\n  border-right: 1px solid #666;\n  border-bottom: 1px solid #666;\n  border-left: 1px solid #666;\n  position: relative;\n  ", "\n\ttransition: .1s ease;\n  div {\n    height: 15px;\n    width: 15px;\n    background: #656565;\n    border-radius: 50%;\n    border: 1px solid #4b4b4b;\n  }\n"]);
 
   _templateObject24 = function _templateObject24() {
     return data;
@@ -262,7 +262,7 @@ function _templateObject24() {
 }
 
 function _templateObject23() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_7__["default"])(["\n  background: #666;\n  width: 3vw;\n  height: 3vw;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 6px 0 0 6px;\n  border-top: 1px solid #4b4b4b;\n  border-right: 0 solid #4b4b4b;\n  border-bottom: 1px solid #4b4b4b;\n  border-left: 1px solid #4b4b4b;\n  img {\n    transform: rotate(180deg);\n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_7__["default"])(["\n  background: #666;\n  width: 3vw;\n  height: 3vw;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 6px 0 0 6px;\n  border-top: 1px solid #4b4b4b;\n  border-right: 0 solid #4b4b4b;\n  border-bottom: 1px solid #4b4b4b;\n  border-left: 1px solid #4b4b4b;\n  position: relative;\n  box-shadow: 0 5px 0 #4d4d4d;\n  ", "\n\ttransition: .1s ease;\n  img {\n    transform: rotate(180deg);\n  }\n"]);
 
   _templateObject23 = function _templateObject23() {
     return data;
@@ -282,7 +282,7 @@ function _templateObject22() {
 }
 
 function _templateObject21() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_7__["default"])(["\n  background: #666;\n  width: 3vw;\n  height: 3vw;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 6px 6px 0 0;\n  border-top: 1px solid #4b4b4b;\n  border-right: 1px solid #4b4b4b;\n  border-bottom: 0 solid #4b4b4b;\n  border-left: 1px solid #4b4b4b;\n  img {\n    transform: rotate(270deg);\n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_7__["default"])(["\n  background: #666;\n  width: 3vw;\n  height: 3vw;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 6px 6px 0 0;\n  border-top: 1px solid #4b4b4b;\n  border-right: 1px solid #4b4b4b;\n  border-bottom: 0 solid #4b4b4b;\n  border-left: 1px solid #4b4b4b;\n  position: relative;\n  ", "\n\ttransition: .1s ease;\n  img {\n    transform: rotate(270deg);\n  }\n"]);
 
   _templateObject21 = function _templateObject21() {
     return data;
@@ -302,7 +302,7 @@ function _templateObject20() {
 }
 
 function _templateObject19() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_7__["default"])(["\n  background: #22b598;\n  width: 8vw;\n  height: 3vw;\n  border: 3px solid #444d4c;\n  border-radius: 15px;\n\tposition: relative;\n\tbox-shadow: ", ";\n\ttop: ", ";\n\ttransition: .3s ease;\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_7__["default"])(["\n  background: #22b598;\n  width: 8vw;\n  height: 3vw;\n  border: 3px solid #444d4c;\n  border-radius: 15px;\n\tposition: relative;\n\tbox-shadow: ", ";\n\ttop: ", ";\n\ttransition: .1s ease;\n"]);
 
   _templateObject19 = function _templateObject19() {
     return data;
@@ -517,12 +517,99 @@ var Voice = styled_components__WEBPACK_IMPORTED_MODULE_9___default.a.div(_templa
   return props.active ? '5px' : '0';
 });
 var Direction = styled_components__WEBPACK_IMPORTED_MODULE_9___default.a.div(_templateObject20());
-var Top = styled_components__WEBPACK_IMPORTED_MODULE_9___default.a.div(_templateObject21());
+var Top = styled_components__WEBPACK_IMPORTED_MODULE_9___default.a.div(_templateObject21(), function (props) {
+  switch (props.active) {
+    case 'left':
+      return 'box-shadow: 4px 5px 0 #4d4d4d, 4px 0 0 #4d4d4d; top: 1.2px';
+
+    case 'top':
+      return 'box-shadow: none; top: -1px';
+
+    case 'right':
+      return 'box-shadow: -4px 5px 0 #4d4d4d, -4px 0 0 #4d4d4d, 0 5px 0 #4d4d4d; top: 0.8px';
+
+    case 'bottom':
+      return 'box-shadow: 0 -5px 0 #4d4d4d; top: 0.8px';
+
+    default:
+      break;
+  }
+});
 var Vertical = styled_components__WEBPACK_IMPORTED_MODULE_9___default.a.div(_templateObject22());
-var Left = styled_components__WEBPACK_IMPORTED_MODULE_9___default.a.div(_templateObject23());
-var Center = styled_components__WEBPACK_IMPORTED_MODULE_9___default.a.div(_templateObject24());
-var Right = styled_components__WEBPACK_IMPORTED_MODULE_9___default.a.div(_templateObject25());
-var Bottom = styled_components__WEBPACK_IMPORTED_MODULE_9___default.a.div(_templateObject26());
+var Left = styled_components__WEBPACK_IMPORTED_MODULE_9___default.a.div(_templateObject23(), function (props) {
+  switch (props.active) {
+    case 'left':
+      return 'box-shadow: none; top: 1px';
+
+    case 'top':
+      return 'box-shadow: 0 3px 0 #4d4d4d; top: -1px';
+
+    case 'right':
+      return 'box-shadow: -4px 5px 0 #4d4d4d, -4px 0 0 #4d4d4d, 0 5px 0 #4d4d4d; top: 0.8px';
+
+    case 'bottom':
+      return 'box-shadow: 0 -5px 0 #4d4d4d; top: 0.8px';
+
+    default:
+      break;
+  }
+});
+var Center = styled_components__WEBPACK_IMPORTED_MODULE_9___default.a.div(_templateObject24(), function (props) {
+  switch (props.active) {
+    case 'left':
+      return 'top: 1px';
+
+    case 'top':
+      return 'top: -1px';
+
+    case 'right':
+      return 'top: 0.8px';
+
+    case 'bottom':
+      return 'top: 0.8px';
+
+    default:
+      break;
+  }
+});
+var Right = styled_components__WEBPACK_IMPORTED_MODULE_9___default.a.div(_templateObject25(), function (props) {
+  switch (props.active) {
+    case 'left':
+      return 'box-shadow: 4px 5px 0 #4d4d4d, 4px 0 0 #4d4d4d, 0 5px 0 #4d4d4d; top: 1px';
+
+    case 'top':
+      return 'box-shadow: 0 3px 0 #4d4d4d; top: -1px';
+
+    case 'right':
+      return 'box-shadow: none; top: 0.8px';
+
+    case 'bottom':
+      return 'box-shadow: 0 -5px 0 #4d4d4d; top: 0.8px';
+
+    default:
+      break;
+  }
+});
+var Bottom = styled_components__WEBPACK_IMPORTED_MODULE_9___default.a.div(_templateObject26(), function (props) {
+  return props.active == 'left' ? '5px solid #4b4b4b' : '1px solid #4b4b4b';
+}, function (props) {
+  switch (props.active) {
+    case 'left':
+      return 'box-shadow: 4px 5px 0 #4d4d4d, 4px 0 0 #4d4d4d, 0 5px 0 #4d4d4d; top: 0.8px';
+
+    case 'top':
+      return 'box-shadow: 0 7px 0 #4d4d4d; top: -1px';
+
+    case 'right':
+      return 'box-shadow: -4px 5px 0 #4d4d4d, -4px 0 0 #4d4d4d, 0 5px 0 #4d4d4d; top: 0.8px';
+
+    case 'bottom':
+      return 'box-shadow: none; top: 0.8px';
+
+    default:
+      break;
+  }
+});
 
 var TabLeft =
 /*#__PURE__*/
@@ -544,12 +631,125 @@ function (_Component) {
           _this.setState({
             voice: false
           });
-        }, 1000);
+        }, 300);
+      });
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "buttonJoystickActive", function (key) {
+      switch (key) {
+        case 'Left':
+          _this.buttonJoystickLeft();
+
+          break;
+
+        case 'Top':
+          _this.buttonJoystickTop();
+
+          break;
+
+        case 'Right':
+          _this.buttonJoystickRight();
+
+          break;
+
+        case 'Bottom':
+          _this.buttonJoystickBottom();
+
+          break;
+
+        default:
+          console.log("error button Joystick");
+          break;
+      }
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "buttonJoystickTop", function () {
+      _this.setState({
+        JoystickTop: 'top',
+        JoystickRight: 'top',
+        JoystickBottom: 'top',
+        JoystickLeft: 'top',
+        JoystickCenter: 'top'
+      }, function () {
+        setTimeout(function () {
+          _this.setState({
+            JoystickTop: false,
+            JoystickRight: false,
+            JoystickBottom: false,
+            JoystickLeft: false,
+            JoystickCenter: false
+          });
+        }, 300);
+      });
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "buttonJoystickRight", function () {
+      _this.setState({
+        JoystickTop: 'right',
+        JoystickRight: 'right',
+        JoystickBottom: 'right',
+        JoystickLeft: 'right',
+        JoystickCenter: 'right'
+      }, function () {
+        setTimeout(function () {
+          _this.setState({
+            JoystickTop: false,
+            JoystickRight: false,
+            JoystickBottom: false,
+            JoystickLeft: false,
+            JoystickCenter: false
+          });
+        }, 300);
+      });
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "buttonJoystickBottom", function () {
+      _this.setState({
+        JoystickTop: 'bottom',
+        JoystickRight: 'bottom',
+        JoystickBottom: 'bottom',
+        JoystickLeft: 'bottom',
+        JoystickCenter: 'bottom'
+      }, function () {
+        setTimeout(function () {
+          _this.setState({
+            JoystickTop: false,
+            JoystickRight: false,
+            JoystickBottom: false,
+            JoystickLeft: false,
+            JoystickCenter: false
+          });
+        }, 300);
+      });
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "buttonJoystickLeft", function () {
+      _this.setState({
+        JoystickTop: 'left',
+        JoystickRight: 'left',
+        JoystickBottom: 'left',
+        JoystickLeft: 'left',
+        JoystickCenter: 'left'
+      }, function () {
+        setTimeout(function () {
+          _this.setState({
+            JoystickTop: false,
+            JoystickRight: false,
+            JoystickBottom: false,
+            JoystickLeft: false,
+            JoystickCenter: false
+          });
+        }, 300);
       });
     });
 
     _this.state = {
-      voice: false
+      voice: false,
+      JoystickTop: false,
+      JoystickRight: false,
+      JoystickBottom: false,
+      JoystickLeft: false,
+      JoystickCenter: false
     };
     return _this;
   }
@@ -559,161 +759,160 @@ function (_Component) {
     value: function render() {
       var _this2 = this;
 
-      console.log(this.state.voice);
       return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Main, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 381
+          lineNumber: 566
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(HeaderBorder, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 382
+          lineNumber: 567
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Header, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 383
+          lineNumber: 568
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Loading, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 384
+          lineNumber: 569
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Types, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 385
+          lineNumber: 570
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 386
+          lineNumber: 571
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 387
+          lineNumber: 572
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 388
+          lineNumber: 573
         },
         __self: this
       })))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(MainLeftBorder, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 393
+          lineNumber: 578
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(MainLeftBorderExtencion, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 394
+          lineNumber: 579
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(MainLeft, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 395
+          lineNumber: 580
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(MainLeftExtencion, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 396
+          lineNumber: 581
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(MainScreen, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 397
+          lineNumber: 582
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(BorderScreen, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 398
+          lineNumber: 583
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Camera, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 399
+          lineNumber: 584
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 400
+          lineNumber: 585
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 401
+          lineNumber: 586
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Screen, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 403
+          lineNumber: 588
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(ContentScreen, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 404
+          lineNumber: 589
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(ButtonScreen, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 405
+          lineNumber: 590
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(AltoFalante, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 406
+          lineNumber: 591
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 407
+          lineNumber: 592
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 408
+          lineNumber: 593
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 409
+          lineNumber: 594
         },
         __self: this
       }))))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Buttons, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 414
+          lineNumber: 599
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Reset, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 415
+          lineNumber: 600
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Voice, {
@@ -723,83 +922,100 @@ function (_Component) {
         active: this.state.voice,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 416
+          lineNumber: 601
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Direction, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 417
+          lineNumber: 602
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Top, {
+        onClick: function onClick() {
+          return _this2.buttonJoystickActive('Top');
+        },
+        active: this.state.JoystickTop,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 418
+          lineNumber: 603
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
         src: "./static/images/next.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 419
+          lineNumber: 604
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Vertical, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 421
+          lineNumber: 606
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Left, {
+        onClick: function onClick() {
+          return _this2.buttonJoystickActive('Left');
+        },
+        active: this.state.JoystickLeft,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 422
+          lineNumber: 607
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
         src: "./static/images/next.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 423
+          lineNumber: 608
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Center, {
+        active: this.state.JoystickCenter,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 425
+          lineNumber: 610
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 426
+          lineNumber: 611
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Right, {
+        onClick: function onClick() {
+          return _this2.buttonJoystickActive('Right');
+        },
+        active: this.state.JoystickRight,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 428
+          lineNumber: 613
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
         src: "./static/images/next.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 429
+          lineNumber: 614
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Bottom, {
+        onClick: function onClick() {
+          return _this2.buttonJoystickActive('Bottom');
+        },
+        active: this.state.JoystickBottom,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 432
+          lineNumber: 617
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
         src: "./static/images/next.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 433
+          lineNumber: 618
         },
         __self: this
       })))))));
@@ -839,7 +1055,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/home/caioaugusto/Github/PokeApi/compoments/Pokedex/compoments/TabRight.js";
+var _jsxFileName = "/Users/dvida14/Documents/github/PokeApi/compoments/Pokedex/compoments/TabRight.js";
 
 function _templateObject12() {
   var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_5__["default"])(["\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  justify-content: space-between;\n  div:nth-child(1){\n    height: 3vw;\n    width: 10vw;\n    background: #666666;\n    border-radius: 8px;\n    border: 2px solid #4d4d4d;\n  }\n  div:nth-child(2){\n    height: 3vw;\n    width: 8vw;\n    background: #666666;\n    border-radius: 8px;\n    border: 2px solid #4d4d4d;\n  }\n"]);
@@ -1124,7 +1340,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/home/caioaugusto/Github/PokeApi/compoments/Pokedex/index.js";
+var _jsxFileName = "/Users/dvida14/Documents/github/PokeApi/compoments/Pokedex/index.js";
 
 function _templateObject() {
   var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_5__["default"])(["\n  display: flex;\n  align-items: center;\n  justify-content: center;  \n  width: 100vw;\n  height: 100vh;\n  background: lightgray;\n"]);
@@ -1564,7 +1780,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/home/caioaugusto/Github/PokeApi/pages/index.js";
+var _jsxFileName = "/Users/dvida14/Documents/github/PokeApi/pages/index.js";
 
 function _templateObject() {
   var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_5__["default"])(["\n  body {\n    margin: 0;\n    padding: 0;\n  }\n"]);
@@ -1631,7 +1847,7 @@ function (_Component) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/caioaugusto/Github/PokeApi/pages/index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! /Users/dvida14/Documents/github/PokeApi/pages/index.js */"./pages/index.js");
 
 
 /***/ }),
