@@ -112,9 +112,17 @@ const ChangeImages = styled.div`
   }
   div:nth-child(1){
     border-radius: 8px 0 0 8px;
+    position: relative;
+    top: ${ props => props.actionOne ? '5px' : '0'};
+    box-shadow: ${ props => props.actionOne ? 'none' : '0 5px 0 #4d4d4d'};
+    transition: .1s ease;
   }
   div:nth-child(2){
     border-radius: 0 8px 8px 0;
+    position: relative;
+    top: ${ props => props.actionTwo ? '5px' : '0'};
+    box-shadow: ${ props => props.actionTwo ? 'none' : '0 5px 0 #4d4d4d'};
+    transition: .1s ease;
   }
 `;
 
@@ -124,6 +132,10 @@ const Reset = styled.div`
   background: #fcee6b;
   border-radius: 50%;
   border: 2px solid #4d4d4d;
+  position: relative;
+  top: ${ props => props.action ? '2px' : '0'};
+  left: ${ props => props.action ? '2px' : '0'};
+  box-shadow: ${ props => props.action ? 'none' : '2px 2px 0 #4d4d4d'};
 `;
 
 const ButtonsLineTwo = styled.div`
@@ -137,6 +149,10 @@ const ButtonsLineTwo = styled.div`
     background: #666666;
     border-radius: 8px;
     border: 2px solid #4d4d4d;
+    position: relative;
+    top: ${ props => props.actionOne ? '5px' : '0'};
+    box-shadow: ${ props => props.actionOne ? 'none' : '0 5px 0 #4d4d4d'};
+    transition: .1s ease;
   }
   div:nth-child(2){
     height: 3vw;
@@ -144,10 +160,84 @@ const ButtonsLineTwo = styled.div`
     background: #666666;
     border-radius: 8px;
     border: 2px solid #4d4d4d;
+    position: relative;
+    top: ${ props => props.actionTwo ? '5px' : '0'};
+    box-shadow: ${ props => props.actionTwo ? 'none' : '0 5px 0 #4d4d4d'};
+    transition: .1s ease;
   }
 `;
 
 export default class TabRight extends Component {
+  constructor(props){
+    super(props)
+    this.state = {
+      ChangeImageOne: false,
+      ChangeImageTwo: false,
+      Reset: false,
+      ButtonOne: false,
+      ButtonTwo: false,
+    }
+  }
+
+  ChangeImageOne = () => {
+    this.setState({
+      ChangeImageOne: true,
+    }, () => {
+      setTimeout( () => {
+        this.setState({
+          ChangeImageOne: false,
+        })
+      }, 300)
+    })
+  }
+
+  ChangeImageTwo = () => {
+    this.setState({
+      ChangeImageTwo: true,
+    }, () => {
+      setTimeout( () => {
+        this.setState({
+          ChangeImageTwo: false,
+        })
+      }, 300)
+    })
+  }
+
+  ButtonOne = () => {
+    this.setState({
+      ButtonOne: true,
+    }, () => {
+      setTimeout( () => {
+        this.setState({
+          ButtonOne: false,
+        })
+      }, 300)
+    })
+  }
+
+  ButtonTwo = () => {
+    this.setState({
+      ButtonTwo: true,
+    }, () => {
+      setTimeout( () => {
+        this.setState({
+          ButtonTwo: false,
+        })
+      }, 300)
+    })
+  }
+
+  ResetButton = () => {
+    this.setState({
+      Reset: true,
+    }, () => {
+      setTimeout( () => {
+        this.setState({
+          Reset: false,
+        })
+      }, 300)
+    })
+  }
   render() {
     return (
       <MainBorder>
@@ -159,15 +249,15 @@ export default class TabRight extends Component {
               <Screen/>
               <MainButtons>
                 <ButtonsLineOne>
-                  <ChangeImages>
-                    <div/>
-                    <div/>
+                  <ChangeImages actionOne={this.state.ChangeImageOne} actionTwo={this.state.ChangeImageTwo}>
+                    <div onClick={ () => this.ChangeImageOne()} />
+                    <div onClick={ () => this.ChangeImageTwo()} />
                   </ChangeImages>
-                  <Reset/>
+                  <Reset action={this.state.Reset} onClick={ () => this.ResetButton()}/>
                 </ButtonsLineOne>
-                <ButtonsLineTwo>
-                  <div/>
-                  <div/>
+                <ButtonsLineTwo actionOne={this.state.ButtonOne} actionTwo={this.state.ButtonTwo}>
+                  <div onClick={ () => this.ButtonOne()} />
+                  <div onClick={ () => this.ButtonTwo()} />
                 </ButtonsLineTwo>
               </MainButtons>
             </MainRight>
