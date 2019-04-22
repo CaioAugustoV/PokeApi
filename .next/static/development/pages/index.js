@@ -126,6 +126,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _tabLeft_Joystick__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./tabLeft/Joystick */ "./compoments/Pokedex/compoments/tabLeft/Joystick.js");
 
 
 
@@ -135,76 +136,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _jsxFileName = "/Users/dvida14/Documents/github/PokeApi/compoments/Pokedex/compoments/TabLeft.js";
-
-function _templateObject26() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_7__["default"])(["\n  background: #666;\n  width: 3vw;\n  height: 3vw;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 0 0 6px 6px;\n  border-top: 0 solid #4b4b4b;\n  border-right: ", ";\n  border-right: 1px solid #4b4b4b;\n  border-bottom: 1px solid #4b4b4b;\n  border-left: 1px solid #4b4b4b;\n  position: relative;\n  box-shadow: 0 5px 0 #4d4d4d;\n  ", "\n\ttransition: .1s ease;\n  img {\n    transform: rotate(90deg);\n  }\n"]);
-
-  _templateObject26 = function _templateObject26() {
-    return data;
-  };
-
-  return data;
-}
-
-function _templateObject25() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_7__["default"])(["\n  background: #666;\n  width: 3vw;\n  height: 3vw;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 0 6px 6px 0;\n  border-top: 1px solid #4b4b4b;\n  border-right: 1px solid #4b4b4b;\n  border-bottom: 1px solid #4b4b4b;\n  border-left: 0 solid #4b4b4b;\n  position: relative;\n  box-shadow: 0 5px 0 #4d4d4d;\n  ", "\n\ttransition: .1s ease;\n"]);
-
-  _templateObject25 = function _templateObject25() {
-    return data;
-  };
-
-  return data;
-}
-
-function _templateObject24() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_7__["default"])(["\n  background: #666;\n  width: 3vw;\n  height: 3vw;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-top: 1px solid #666;\n  border-right: 1px solid #666;\n  border-bottom: 1px solid #666;\n  border-left: 1px solid #666;\n  position: relative;\n  ", "\n\ttransition: .1s ease;\n  div {\n    height: 15px;\n    width: 15px;\n    background: #656565;\n    border-radius: 50%;\n    border: 1px solid #4b4b4b;\n  }\n"]);
-
-  _templateObject24 = function _templateObject24() {
-    return data;
-  };
-
-  return data;
-}
-
-function _templateObject23() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_7__["default"])(["\n  background: #666;\n  width: 3vw;\n  height: 3vw;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 6px 0 0 6px;\n  border-top: 1px solid #4b4b4b;\n  border-right: 0 solid #4b4b4b;\n  border-bottom: 1px solid #4b4b4b;\n  border-left: 1px solid #4b4b4b;\n  position: relative;\n  box-shadow: 0 5px 0 #4d4d4d;\n  ", "\n\ttransition: .1s ease;\n  img {\n    transform: rotate(180deg);\n  }\n"]);
-
-  _templateObject23 = function _templateObject23() {
-    return data;
-  };
-
-  return data;
-}
-
-function _templateObject22() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_7__["default"])(["\n  display: flex;\n  flex-direction: row;\n"]);
-
-  _templateObject22 = function _templateObject22() {
-    return data;
-  };
-
-  return data;
-}
-
-function _templateObject21() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_7__["default"])(["\n  background: #666;\n  width: 3vw;\n  height: 3vw;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 6px 6px 0 0;\n  border-top: 1px solid #4b4b4b;\n  border-right: 1px solid #4b4b4b;\n  border-bottom: 0 solid #4b4b4b;\n  border-left: 1px solid #4b4b4b;\n  position: relative;\n  ", "\n\ttransition: .1s ease;\n  img {\n    transform: rotate(270deg);\n  }\n"]);
-
-  _templateObject21 = function _templateObject21() {
-    return data;
-  };
-
-  return data;
-}
-
-function _templateObject20() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_7__["default"])(["\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  img {\n    width: 15px;\n  }\n"]);
-
-  _templateObject20 = function _templateObject20() {
-    return data;
-  };
-
-  return data;
-}
 
 function _templateObject19() {
   var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_7__["default"])(["\n  background: #22b598;\n  width: 8vw;\n  height: 3vw;\n  border: 3px solid #444d4c;\n  border-radius: 15px;\n\tposition: relative;\n\tbox-shadow: ", ";\n\ttop: ", ";\n\ttransition: .1s ease;\n"]);
@@ -217,7 +148,7 @@ function _templateObject19() {
 }
 
 function _templateObject18() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_7__["default"])(["\n  background: #4d4d4d;\n  width: 3vw;\n  height: 3vw;\n  border-radius: 50%;\n  border: 3px solid #4b4b4b;\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_7__["default"])(["\n  background: #666;\n  width: 3vw;\n  height: 3vw;\n  border-radius: 50%;\n  border: 3px solid #4b4b4b;\n  position: relative;\n  box-shadow: ", ";\n  top: ", ";\n  left: ", ";\n\ttransition: .1s ease;\n"]);
 
   _templateObject18 = function _templateObject18() {
     return data;
@@ -398,6 +329,7 @@ function _templateObject() {
 
 
 
+
 var Main = styled_components__WEBPACK_IMPORTED_MODULE_9__["default"].div(_templateObject());
 var HeaderBorder = styled_components__WEBPACK_IMPORTED_MODULE_9__["default"].div(_templateObject2());
 var Header = styled_components__WEBPACK_IMPORTED_MODULE_9__["default"].div(_templateObject3());
@@ -415,105 +347,17 @@ var ContentScreen = styled_components__WEBPACK_IMPORTED_MODULE_9__["default"].di
 var ButtonScreen = styled_components__WEBPACK_IMPORTED_MODULE_9__["default"].div(_templateObject15());
 var AltoFalante = styled_components__WEBPACK_IMPORTED_MODULE_9__["default"].div(_templateObject16());
 var Buttons = styled_components__WEBPACK_IMPORTED_MODULE_9__["default"].div(_templateObject17());
-var Reset = styled_components__WEBPACK_IMPORTED_MODULE_9__["default"].div(_templateObject18());
+var Reset = styled_components__WEBPACK_IMPORTED_MODULE_9__["default"].div(_templateObject18(), function (props) {
+  return props.active ? 'none' : '-2px 2px 0 #4d4d4d';
+}, function (props) {
+  return props.active ? '2px' : '0';
+}, function (props) {
+  return props.active ? '-2px' : '0';
+});
 var Voice = styled_components__WEBPACK_IMPORTED_MODULE_9__["default"].div(_templateObject19(), function (props) {
   return props.active ? 'none' : '0 5px 0 #4d4d4d';
 }, function (props) {
   return props.active ? '5px' : '0';
-});
-var Direction = styled_components__WEBPACK_IMPORTED_MODULE_9__["default"].div(_templateObject20());
-var Top = styled_components__WEBPACK_IMPORTED_MODULE_9__["default"].div(_templateObject21(), function (props) {
-  switch (props.active) {
-    case 'left':
-      return 'box-shadow: 4px 5px 0 #4d4d4d, 4px 0 0 #4d4d4d; top: 1.2px';
-
-    case 'top':
-      return 'box-shadow: none; top: -1px';
-
-    case 'right':
-      return 'box-shadow: -4px 5px 0 #4d4d4d, -4px 0 0 #4d4d4d, 0 5px 0 #4d4d4d; top: 0.8px';
-
-    case 'bottom':
-      return 'box-shadow: 0 -5px 0 #4d4d4d; top: 0.8px';
-
-    default:
-      break;
-  }
-});
-var Vertical = styled_components__WEBPACK_IMPORTED_MODULE_9__["default"].div(_templateObject22());
-var Left = styled_components__WEBPACK_IMPORTED_MODULE_9__["default"].div(_templateObject23(), function (props) {
-  switch (props.active) {
-    case 'left':
-      return 'box-shadow: none; top: 1px';
-
-    case 'top':
-      return 'box-shadow: 0 3px 0 #4d4d4d; top: -1px';
-
-    case 'right':
-      return 'box-shadow: -4px 5px 0 #4d4d4d, -4px 0 0 #4d4d4d, 0 5px 0 #4d4d4d; top: 0.8px';
-
-    case 'bottom':
-      return 'box-shadow: 0 -5px 0 #4d4d4d; top: 0.8px';
-
-    default:
-      break;
-  }
-});
-var Center = styled_components__WEBPACK_IMPORTED_MODULE_9__["default"].div(_templateObject24(), function (props) {
-  switch (props.active) {
-    case 'left':
-      return 'top: 1px';
-
-    case 'top':
-      return 'top: -1px';
-
-    case 'right':
-      return 'top: 0.8px';
-
-    case 'bottom':
-      return 'top: 0.8px';
-
-    default:
-      break;
-  }
-});
-var Right = styled_components__WEBPACK_IMPORTED_MODULE_9__["default"].div(_templateObject25(), function (props) {
-  switch (props.active) {
-    case 'left':
-      return 'box-shadow: 4px 5px 0 #4d4d4d, 4px 0 0 #4d4d4d, 0 5px 0 #4d4d4d; top: 1px';
-
-    case 'top':
-      return 'box-shadow: 0 3px 0 #4d4d4d; top: -1px';
-
-    case 'right':
-      return 'box-shadow: none; top: 0.8px';
-
-    case 'bottom':
-      return 'box-shadow: 0 -5px 0 #4d4d4d; top: 0.8px';
-
-    default:
-      break;
-  }
-});
-var Bottom = styled_components__WEBPACK_IMPORTED_MODULE_9__["default"].div(_templateObject26(), function (props) {
-  return props.active == 'left' ? '5px solid #4b4b4b' : '1px solid #4b4b4b';
-}, function (props) {
-  switch (props.active) {
-    case 'left':
-      return 'box-shadow: 4px 5px 0 #4d4d4d, 4px 0 0 #4d4d4d, 0 5px 0 #4d4d4d; top: 0.8px';
-
-    case 'top':
-      return 'box-shadow: 0 7px 0 #4d4d4d; top: -1px';
-
-    case 'right':
-      return 'box-shadow: -4px 5px 0 #4d4d4d, -4px 0 0 #4d4d4d, 0 5px 0 #4d4d4d; top: 0.8px';
-
-    case 'bottom':
-      return 'box-shadow: none; top: 0.8px';
-
-    default:
-      break;
-  }
 });
 
 var TabLeft =
@@ -528,6 +372,18 @@ function (_Component) {
 
     _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(TabLeft).call(this, props));
 
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "buttonResetActive", function () {
+      _this.setState({
+        reset: true
+      }, function () {
+        setTimeout(function () {
+          _this.setState({
+            reset: false
+          });
+        }, 300);
+      });
+    });
+
     Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "buttonVoiceActive", function () {
       _this.setState({
         voice: true
@@ -540,121 +396,9 @@ function (_Component) {
       });
     });
 
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "buttonJoystickActive", function (key) {
-      switch (key) {
-        case 'Left':
-          _this.buttonJoystickLeft();
-
-          break;
-
-        case 'Top':
-          _this.buttonJoystickTop();
-
-          break;
-
-        case 'Right':
-          _this.buttonJoystickRight();
-
-          break;
-
-        case 'Bottom':
-          _this.buttonJoystickBottom();
-
-          break;
-
-        default:
-          console.log("error button Joystick");
-          break;
-      }
-    });
-
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "buttonJoystickTop", function () {
-      _this.setState({
-        JoystickTop: 'top',
-        JoystickRight: 'top',
-        JoystickBottom: 'top',
-        JoystickLeft: 'top',
-        JoystickCenter: 'top'
-      }, function () {
-        setTimeout(function () {
-          _this.setState({
-            JoystickTop: false,
-            JoystickRight: false,
-            JoystickBottom: false,
-            JoystickLeft: false,
-            JoystickCenter: false
-          });
-        }, 300);
-      });
-    });
-
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "buttonJoystickRight", function () {
-      _this.setState({
-        JoystickTop: 'right',
-        JoystickRight: 'right',
-        JoystickBottom: 'right',
-        JoystickLeft: 'right',
-        JoystickCenter: 'right'
-      }, function () {
-        setTimeout(function () {
-          _this.setState({
-            JoystickTop: false,
-            JoystickRight: false,
-            JoystickBottom: false,
-            JoystickLeft: false,
-            JoystickCenter: false
-          });
-        }, 300);
-      });
-    });
-
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "buttonJoystickBottom", function () {
-      _this.setState({
-        JoystickTop: 'bottom',
-        JoystickRight: 'bottom',
-        JoystickBottom: 'bottom',
-        JoystickLeft: 'bottom',
-        JoystickCenter: 'bottom'
-      }, function () {
-        setTimeout(function () {
-          _this.setState({
-            JoystickTop: false,
-            JoystickRight: false,
-            JoystickBottom: false,
-            JoystickLeft: false,
-            JoystickCenter: false
-          });
-        }, 300);
-      });
-    });
-
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "buttonJoystickLeft", function () {
-      _this.setState({
-        JoystickTop: 'left',
-        JoystickRight: 'left',
-        JoystickBottom: 'left',
-        JoystickLeft: 'left',
-        JoystickCenter: 'left'
-      }, function () {
-        setTimeout(function () {
-          _this.setState({
-            JoystickTop: false,
-            JoystickRight: false,
-            JoystickBottom: false,
-            JoystickLeft: false,
-            JoystickCenter: false
-          });
-        }, 300);
-      });
-    });
-
     _this.state = {
       voice: false,
-      JoystickTop: false,
-      JoystickRight: false,
-      JoystickBottom: false,
-      JoystickLeft: false,
-      JoystickCenter: false
+      reset: false
     };
     return _this;
   }
@@ -667,157 +411,161 @@ function (_Component) {
       return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Main, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 566
+          lineNumber: 300
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(HeaderBorder, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 567
+          lineNumber: 301
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Header, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 568
+          lineNumber: 302
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Loading, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 569
+          lineNumber: 303
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Types, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 570
+          lineNumber: 304
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 571
+          lineNumber: 305
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 572
+          lineNumber: 306
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 573
+          lineNumber: 307
         },
         __self: this
       })))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(MainLeftBorder, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 578
+          lineNumber: 312
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(MainLeftBorderExtencion, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 579
+          lineNumber: 313
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(MainLeft, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 580
+          lineNumber: 314
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(MainLeftExtencion, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 581
+          lineNumber: 315
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(MainScreen, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 582
+          lineNumber: 316
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(BorderScreen, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 583
+          lineNumber: 317
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Camera, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 584
+          lineNumber: 318
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 585
+          lineNumber: 319
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 586
+          lineNumber: 320
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Screen, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 588
+          lineNumber: 322
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(ContentScreen, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 589
+          lineNumber: 323
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(ButtonScreen, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 590
+          lineNumber: 324
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(AltoFalante, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 591
+          lineNumber: 325
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 592
+          lineNumber: 326
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 593
+          lineNumber: 327
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 594
+          lineNumber: 328
         },
         __self: this
       }))))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Buttons, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 599
+          lineNumber: 333
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Reset, {
+        onClick: function onClick() {
+          return _this2.buttonResetActive();
+        },
+        active: this.state.reset,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 600
+          lineNumber: 334
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Voice, {
@@ -827,103 +575,16 @@ function (_Component) {
         active: this.state.voice,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 601
+          lineNumber: 335
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Direction, {
+      }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_tabLeft_Joystick__WEBPACK_IMPORTED_MODULE_10__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 602
+          lineNumber: 336
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Top, {
-        onClick: function onClick() {
-          return _this2.buttonJoystickActive('Top');
-        },
-        active: this.state.JoystickTop,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 603
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
-        src: "./static/images/next.png",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 604
-        },
-        __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Vertical, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 606
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Left, {
-        onClick: function onClick() {
-          return _this2.buttonJoystickActive('Left');
-        },
-        active: this.state.JoystickLeft,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 607
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
-        src: "./static/images/next.png",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 608
-        },
-        __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Center, {
-        active: this.state.JoystickCenter,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 610
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 611
-        },
-        __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Right, {
-        onClick: function onClick() {
-          return _this2.buttonJoystickActive('Right');
-        },
-        active: this.state.JoystickRight,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 613
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
-        src: "./static/images/next.png",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 614
-        },
-        __self: this
-      }))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Bottom, {
-        onClick: function onClick() {
-          return _this2.buttonJoystickActive('Bottom');
-        },
-        active: this.state.JoystickBottom,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 617
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
-        src: "./static/images/next.png",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 618
-        },
-        __self: this
-      })))))));
+      })))));
     }
   }]);
 
@@ -1212,6 +873,443 @@ function (_Component) {
 
   return TabRight;
 }(react__WEBPACK_IMPORTED_MODULE_6__["Component"]);
+
+
+
+/***/ }),
+
+/***/ "./compoments/Pokedex/compoments/tabLeft/Joystick.js":
+/*!***********************************************************!*\
+  !*** ./compoments/Pokedex/compoments/tabLeft/Joystick.js ***!
+  \***********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Joystick; });
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral */ "./node_modules/@babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+
+
+
+
+
+
+
+
+var _jsxFileName = "/Users/dvida14/Documents/github/PokeApi/compoments/Pokedex/compoments/tabLeft/Joystick.js";
+
+function _templateObject7() {
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_7__["default"])(["\n  background: #666;\n  width: 3vw;\n  height: 3vw;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 0 0 6px 6px;\n  border-top: 0 solid #4b4b4b;\n  border-right: ", ";\n  border-right: 1px solid #4b4b4b;\n  border-bottom: 1px solid #4b4b4b;\n  border-left: 1px solid #4b4b4b;\n  position: relative;\n  box-shadow: 0 5px 0 #4d4d4d;\n  ", "\n\ttransition: .1s ease;\n  img {\n    transform: rotate(90deg);\n  }\n"]);
+
+  _templateObject7 = function _templateObject7() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject6() {
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_7__["default"])(["\n  background: #666;\n  width: 3vw;\n  height: 3vw;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 0 6px 6px 0;\n  border-top: 1px solid #4b4b4b;\n  border-right: 1px solid #4b4b4b;\n  border-bottom: 1px solid #4b4b4b;\n  border-left: 0 solid #4b4b4b;\n  position: relative;\n  box-shadow: 0 5px 0 #4d4d4d;\n  ", "\n\ttransition: .1s ease;\n"]);
+
+  _templateObject6 = function _templateObject6() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject5() {
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_7__["default"])(["\n  background: #666;\n  width: 3vw;\n  height: 3vw;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-top: 1px solid #666;\n  border-right: 1px solid #666;\n  border-bottom: 1px solid #666;\n  border-left: 1px solid #666;\n  position: relative;\n  ", "\n\ttransition: .1s ease;\n  div {\n    height: 15px;\n    width: 15px;\n    background: #656565;\n    border-radius: 50%;\n    border: 1px solid #4b4b4b;\n  }\n"]);
+
+  _templateObject5 = function _templateObject5() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject4() {
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_7__["default"])(["\n  background: #666;\n  width: 3vw;\n  height: 3vw;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 6px 0 0 6px;\n  border-top: 1px solid #4b4b4b;\n  border-right: 0 solid #4b4b4b;\n  border-bottom: 1px solid #4b4b4b;\n  border-left: 1px solid #4b4b4b;\n  position: relative;\n  box-shadow: 0 5px 0 #4d4d4d;\n  ", "\n\ttransition: .1s ease;\n  img {\n    transform: rotate(180deg);\n  }\n"]);
+
+  _templateObject4 = function _templateObject4() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject3() {
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_7__["default"])(["\n  display: flex;\n  flex-direction: row;\n"]);
+
+  _templateObject3 = function _templateObject3() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject2() {
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_7__["default"])(["\n  background: #666;\n  width: 3vw;\n  height: 3vw;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 6px 6px 0 0;\n  border-top: 1px solid #4b4b4b;\n  border-right: 1px solid #4b4b4b;\n  border-bottom: 0 solid #4b4b4b;\n  border-left: 1px solid #4b4b4b;\n  position: relative;\n  ", "\n\ttransition: .1s ease;\n  img {\n    transform: rotate(270deg);\n  }\n"]);
+
+  _templateObject2 = function _templateObject2() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject() {
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_7__["default"])(["\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  img {\n    width: 15px;\n  }\n"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+
+
+var Direction = styled_components__WEBPACK_IMPORTED_MODULE_9__["default"].div(_templateObject());
+var Top = styled_components__WEBPACK_IMPORTED_MODULE_9__["default"].div(_templateObject2(), function (props) {
+  switch (props.active) {
+    case 'left':
+      return 'box-shadow: 4px 5px 0 #4d4d4d, 4px 0 0 #4d4d4d; top: 1.2px';
+
+    case 'top':
+      return 'box-shadow: none; top: -1px';
+
+    case 'right':
+      return 'box-shadow: -4px 5px 0 #4d4d4d, -4px 0 0 #4d4d4d, 0 5px 0 #4d4d4d; top: 0.8px';
+
+    case 'bottom':
+      return 'box-shadow: 0 -5px 0 #4d4d4d; top: 0.8px';
+
+    default:
+      break;
+  }
+});
+var Vertical = styled_components__WEBPACK_IMPORTED_MODULE_9__["default"].div(_templateObject3());
+var Left = styled_components__WEBPACK_IMPORTED_MODULE_9__["default"].div(_templateObject4(), function (props) {
+  switch (props.active) {
+    case 'left':
+      return 'box-shadow: none; top: 1px';
+
+    case 'top':
+      return 'box-shadow: 0 3px 0 #4d4d4d; top: -1px';
+
+    case 'right':
+      return 'box-shadow: -4px 5px 0 #4d4d4d, -4px 0 0 #4d4d4d, 0 5px 0 #4d4d4d; top: 0.8px';
+
+    case 'bottom':
+      return 'box-shadow: 0 -5px 0 #4d4d4d; top: 0.8px';
+
+    default:
+      break;
+  }
+});
+var Center = styled_components__WEBPACK_IMPORTED_MODULE_9__["default"].div(_templateObject5(), function (props) {
+  switch (props.active) {
+    case 'left':
+      return 'top: 1px';
+
+    case 'top':
+      return 'top: -1px';
+
+    case 'right':
+      return 'top: 0.8px';
+
+    case 'bottom':
+      return 'top: 0.8px';
+
+    default:
+      break;
+  }
+});
+var Right = styled_components__WEBPACK_IMPORTED_MODULE_9__["default"].div(_templateObject6(), function (props) {
+  switch (props.active) {
+    case 'left':
+      return 'box-shadow: 4px 5px 0 #4d4d4d, 4px 0 0 #4d4d4d, 0 5px 0 #4d4d4d; top: 1px';
+
+    case 'top':
+      return 'box-shadow: 0 3px 0 #4d4d4d; top: -1px';
+
+    case 'right':
+      return 'box-shadow: none; top: 0.8px';
+
+    case 'bottom':
+      return 'box-shadow: 0 -5px 0 #4d4d4d; top: 0.8px';
+
+    default:
+      break;
+  }
+});
+var Bottom = styled_components__WEBPACK_IMPORTED_MODULE_9__["default"].div(_templateObject7(), function (props) {
+  return props.active == 'left' ? '5px solid #4b4b4b' : '1px solid #4b4b4b';
+}, function (props) {
+  switch (props.active) {
+    case 'left':
+      return 'box-shadow: 4px 5px 0 #4d4d4d, 4px 0 0 #4d4d4d, 0 5px 0 #4d4d4d; top: 0.8px';
+
+    case 'top':
+      return 'box-shadow: 0 7px 0 #4d4d4d; top: -1px';
+
+    case 'right':
+      return 'box-shadow: -4px 5px 0 #4d4d4d, -4px 0 0 #4d4d4d, 0 5px 0 #4d4d4d; top: 0.8px';
+
+    case 'bottom':
+      return 'box-shadow: none; top: 0.8px';
+
+    default:
+      break;
+  }
+});
+
+var Joystick =
+/*#__PURE__*/
+function (_Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(Joystick, _Component);
+
+  function Joystick(props) {
+    var _this;
+
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Joystick);
+
+    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Joystick).call(this, props));
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "buttonJoystickActive", function (key) {
+      switch (key) {
+        case 'Left':
+          _this.buttonJoystickLeft();
+
+          break;
+
+        case 'Top':
+          _this.buttonJoystickTop();
+
+          break;
+
+        case 'Right':
+          _this.buttonJoystickRight();
+
+          break;
+
+        case 'Bottom':
+          _this.buttonJoystickBottom();
+
+          break;
+
+        default:
+          console.log("error button Joystick");
+          break;
+      }
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "buttonJoystickTop", function () {
+      _this.setState({
+        JoystickTop: 'top',
+        JoystickRight: 'top',
+        JoystickBottom: 'top',
+        JoystickLeft: 'top',
+        JoystickCenter: 'top'
+      }, function () {
+        setTimeout(function () {
+          _this.setState({
+            JoystickTop: false,
+            JoystickRight: false,
+            JoystickBottom: false,
+            JoystickLeft: false,
+            JoystickCenter: false
+          });
+        }, 300);
+      });
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "buttonJoystickRight", function () {
+      _this.setState({
+        JoystickTop: 'right',
+        JoystickRight: 'right',
+        JoystickBottom: 'right',
+        JoystickLeft: 'right',
+        JoystickCenter: 'right'
+      }, function () {
+        setTimeout(function () {
+          _this.setState({
+            JoystickTop: false,
+            JoystickRight: false,
+            JoystickBottom: false,
+            JoystickLeft: false,
+            JoystickCenter: false
+          });
+        }, 300);
+      });
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "buttonJoystickBottom", function () {
+      _this.setState({
+        JoystickTop: 'bottom',
+        JoystickRight: 'bottom',
+        JoystickBottom: 'bottom',
+        JoystickLeft: 'bottom',
+        JoystickCenter: 'bottom'
+      }, function () {
+        setTimeout(function () {
+          _this.setState({
+            JoystickTop: false,
+            JoystickRight: false,
+            JoystickBottom: false,
+            JoystickLeft: false,
+            JoystickCenter: false
+          });
+        }, 300);
+      });
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "buttonJoystickLeft", function () {
+      _this.setState({
+        JoystickTop: 'left',
+        JoystickRight: 'left',
+        JoystickBottom: 'left',
+        JoystickLeft: 'left',
+        JoystickCenter: 'left'
+      }, function () {
+        setTimeout(function () {
+          _this.setState({
+            JoystickTop: false,
+            JoystickRight: false,
+            JoystickBottom: false,
+            JoystickLeft: false,
+            JoystickCenter: false
+          });
+        }, 300);
+      });
+    });
+
+    _this.state = {
+      JoystickTop: false,
+      JoystickRight: false,
+      JoystickBottom: false,
+      JoystickLeft: false,
+      JoystickCenter: false
+    };
+    return _this;
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Joystick, [{
+    key: "render",
+    value: function render() {
+      var _this2 = this;
+
+      return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Direction, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 299
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Top, {
+        onClick: function onClick() {
+          return _this2.buttonJoystickActive('Top');
+        },
+        active: this.state.JoystickTop,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 300
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
+        src: "./static/images/next.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 301
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Vertical, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 303
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Left, {
+        onClick: function onClick() {
+          return _this2.buttonJoystickActive('Left');
+        },
+        active: this.state.JoystickLeft,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 304
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
+        src: "./static/images/next.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 305
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Center, {
+        active: this.state.JoystickCenter,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 307
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 308
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Right, {
+        onClick: function onClick() {
+          return _this2.buttonJoystickActive('Right');
+        },
+        active: this.state.JoystickRight,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 310
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
+        src: "./static/images/next.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 311
+        },
+        __self: this
+      }))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Bottom, {
+        onClick: function onClick() {
+          return _this2.buttonJoystickActive('Bottom');
+        },
+        active: this.state.JoystickBottom,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 314
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
+        src: "./static/images/next.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 315
+        },
+        __self: this
+      })));
+    }
+  }]);
+
+  return Joystick;
+}(react__WEBPACK_IMPORTED_MODULE_8__["Component"]);
 
 
 
