@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 import Joystick from './tabLeft/Joystick';
+import { connect } from 'react-redux';
+import { loadData } from '../../../libs/actions';
 
 const Main = styled.div`
   height: 100%;
@@ -184,6 +186,13 @@ const Screen = styled.div`
   background: #4d4d4d;
   width: 80%;
   height: 75%;
+  animation:scaleme 1s;
+  @keyframes scaleme {
+    0% { transform: scaleY(1) scaleX(1); opacity: 1; }
+    50% { transform: scaleY(.1) scaleX(1); }
+    80% { transform: scaleY(.1) scaleX(.5); }
+    100% { transform: scaleY(.01) scaleX(.1); opacity: 0;display:none; }
+  }  
 `;
 
 const Camera = styled.div`
@@ -262,12 +271,13 @@ const Voice = styled.div`
 	transition: .1s ease;
 `;
 
-export default class TabLeft extends Component {
+class TabLeft extends Component {
 	constructor(props){
 		super(props);
 		this.state = {
       voice: false,
       reset: false,
+      pokemonValue: '',
 		}
 	};
 
@@ -284,6 +294,7 @@ export default class TabLeft extends Component {
   }
 
 	buttonVoiceActive = () => {
+    this.getInfoPokemon(this.state.pokemonValue);
 		this.setState({
 			voice: true,
 		}, () => {
@@ -295,7 +306,12 @@ export default class TabLeft extends Component {
 		})
   }
   
+  getInfoPokemon = (val) => {
+    this.props.dispatch(loadData(val))
+  }
+
   render() {
+    console.log(this.props.placeholderData)
     return (
       <Main>
         <HeaderBorder>
@@ -319,7 +335,9 @@ export default class TabLeft extends Component {
                   <div />
                   <div />
                 </Camera>
-                <Screen />
+                <Screen>
+                  <input type="text" onChange={ e => this.setState({ pokemonValue: e.target.value })}/>
+                </Screen>
                 <ContentScreen>
                   <ButtonScreen />
                   <AltoFalante>
@@ -341,3 +359,5 @@ export default class TabLeft extends Component {
     );
   }
 }
+
+export default connect(state => state)(TabLeft);

@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import Pokedex from '../compoments/Pokedex/index'
 
+import { connect } from 'react-redux'
+
 import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
@@ -10,7 +12,7 @@ const GlobalStyle = createGlobalStyle`
   }
 `
 
-export default class index extends Component {
+class index extends Component {
   render() {
     return ( 
       <React.Fragment>
@@ -20,3 +22,5 @@ export default class index extends Component {
     )
   }
 }
+
+export default connect()(index)
